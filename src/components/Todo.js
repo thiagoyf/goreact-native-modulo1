@@ -8,6 +8,10 @@ export default class Todo extends Component {
     title: "Todo padrão"
   };
 
+  static propTypes = {
+    title: PropTypes.string
+  };
+
   render() {
     return (
       <View>
